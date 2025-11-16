@@ -81,21 +81,25 @@ Notebook ini menunjukkan alur pelatihan IndoBERT pada dataset yang sama.
 
 ## Setup & Cara Menjalankan
 1. **Buat dan aktifkan virtual environment**
--  Masuk ke folder project
-cd path/to/project
+   ```bash
+   # Masuk ke folder project
+   cd path/to/project
 
-- Buat virtualenv
-python -m venv .venv
+   # Buat virtualenv
+   python -m venv .venv
 
-- Aktifkan (Command Prompt / CMD, Windows)
-.\.venv\Scripts\activate
+   # Aktifkan (Command Prompt / CMD, Windows)
+   .\.venv\Scripts\activate
 
 2. **Install dependensi**
-pip install --upgrade pip
-pip install -r requirements.txt
+   ```bash
+    pip install --upgrade pip
+    pip install -r requirements.txt
 
-3. **Jalankan aplikasi Streamlit**
-streamlit run app.py
+4. **Jalankan aplikasi Streamlit**
+   ```bash
+   streamlit run app.py
+
 jika port 8501 sudah dipakai:
 streamlit run app.py --server.port 8502 atau port yang belum terpakai lainnya
 Buka URL yang muncul di terminal (misalnya http://localhost:8501), masukkan teks berbahasa Indonesia, lalu klik “Analisis Sentimen” untuk melihat prediksi positif/negatif beserta tingkat keyakinan model.
@@ -105,5 +109,6 @@ Buka URL yang muncul di terminal (misalnya http://localhost:8501), masukkan teks
 > Untuk menjalankan inference lokal, unduh model dari https://drive.google.com/file/d/1n5S9wSjxDXvhteuaO7u9bovhbdzbeTDB/view?usp=sharing 
 > lalu letakkan di path tersebut.
 
+::contentReference[oaicite:0]{index=0}
 
 
