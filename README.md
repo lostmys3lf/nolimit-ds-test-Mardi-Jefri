@@ -81,13 +81,13 @@ Notebook ini menunjukkan alur pelatihan IndoBERT pada dataset yang sama.
 
 ## Setup & Cara Menjalankan
 1. **Buat dan aktifkan virtual environment**
-# Masuk ke folder project
+-  Masuk ke folder project
 cd path/to/project
 
-# Buat virtualenv
+- Buat virtualenv
 python -m venv .venv
 
-# Aktifkan (Command Prompt / CMD, Windows)
+- Aktifkan (Command Prompt / CMD, Windows)
 .\.venv\Scripts\activate
 
 2. **Install dependensi**
@@ -96,8 +96,8 @@ pip install -r requirements.txt
 
 3. **Jalankan aplikasi Streamlit**
 streamlit run app.py
-# jika port 8501 sudah dipakai:
-# streamlit run app.py --server.port 8502 atau port yang belum terpakai lainnya
+- jika port 8501 sudah dipakai:
+- streamlit run app.py --server.port 8502 atau port yang belum terpakai lainnya
 Buka URL yang muncul di terminal (misalnya http://localhost:8501), masukkan teks berbahasa Indonesia, lalu klik “Analisis Sentimen” untuk melihat prediksi positif/negatif beserta tingkat keyakinan model.
 
 > Catatan: file checkpoint model (`models/indoBERT_best/checkpoint-2390/model.safetensors`) 
