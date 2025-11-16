@@ -108,7 +108,3 @@ Buka URL yang muncul di terminal (misalnya http://localhost:8501), masukkan teks
 > tidak disertakan di repo ini karena ukurannya ~475 MB dan melebihi batas GitHub (100 MB).
 > Untuk menjalankan inference lokal, unduh model dari https://drive.google.com/file/d/1n5S9wSjxDXvhteuaO7u9bovhbdzbeTDB/view?usp=sharing 
 > lalu letakkan di path tersebut.
-
-::contentReference[oaicite:0]{index=0}
-
-
